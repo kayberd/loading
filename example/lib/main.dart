@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loading/loading.dart';
-import 'package:loading/indicator/ball_pulse_indicator.dart';
+import 'package:loading/indicator/line_scale_indicator.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,11 +17,12 @@ class ShowLoading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Loading View'),
         ),
         body: Center(
-          child: Loading(indicator: BallPulseIndicator(), size: 200.0),
+          child: Loading(indicator: LineScaleIndicator(), size: 200.0),
         ));
   }
 }
