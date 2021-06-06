@@ -34,7 +34,7 @@ class ShowLoading extends StatelessWidget {
         title: Text('Loading View'),
       ),
       body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
               child: const Text('Show Time'),
               onPressed: () {
                 Navigator.push(

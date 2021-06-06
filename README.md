@@ -1,6 +1,6 @@
 ## Loading
 
-A flutter widget of loading progress Indicator. Easy to use, easy to extend
+Null safe clones of a flutter widget of loading progress Indicator.
 
 <img src="./art/loading.gif" width=250 height=480/>
 
