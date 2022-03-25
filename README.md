@@ -1,5 +1,7 @@
 # Loading
 
+This is the null safe version.  Enjoy.
+
 A flutter widget of loading progress Indicator. Easy to use, easy to extend
 
 
