@@ -4,7 +4,7 @@ description: to show loading widgets
 version: 1.1.2
 
 environment:
-  sdk: '>=3.5.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
